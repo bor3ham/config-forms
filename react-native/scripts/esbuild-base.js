@@ -9,10 +9,9 @@ const external = [
 
 exports.config = {
   entryPoints: [
-    'src/renderer.jsx',
-    'src/sample.js',
+    'src/index.jsx',
   ],
-  outdir: '.',
+  outdir: 'dist',
   metafile: true,
   bundle: true,
   format: 'esm',

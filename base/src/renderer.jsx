@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-class BaseRenderer extends React.PureComponent {
+export class BaseRenderer extends React.PureComponent {
   static propTypes = {
     value: PropTypes.object,
     editable: PropTypes.bool,
@@ -307,5 +307,3 @@ class BaseRenderer extends React.PureComponent {
     )
   }
 }
-
-export default BaseRenderer

@@ -63,11 +63,6 @@ typings/
 # built files
 dist
 
-# base built files
-base/meta.json
-base/renderer.js*
-base/sample.js*
-
 # react built files
 react/config-forms-react.css*
 react/field-renderers.js*
